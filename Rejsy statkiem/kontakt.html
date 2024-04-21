@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rejsy statkiem</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/kontakt.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+        <link rel="shortcut icon" href="images/favicon.png">
+	</head>
+	<body>
+    <nav class="nav">
+        <div class="container">
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                     <li><a href="index.html">Home</a></li>
+                    <li><a href="promocje.html">Promocje</a></li>
+                    <li><a href="oferty.html">Oferty</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="galeria2.html">Galeria2</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+<!--Formularz!-->        
+ <div id="section3">
+  <a id="contact" class="js--wp-3" name="contact"></a>
+    <div class="row">
+      <div class="form-wrapper">
+        <h1 class="contact-title">Kontakt</h1>
+        <div class="form-inner-wrapper">
+            <form id="contactForm" method="post" action="karol.klimonczyk@zse.krakow.pl">  
+            <div class="field-list clear">
+              <div id="name" class="form-item field email required">
+                          <label class="title">Imię * </label>
+                          <input placeholder="Karol" class="field-element" name="name" pattern="[A-Za-z]{1,32}" required>
+              </div>
+              <div id="surname" class="form-item field email required">
+                          <label class="title">Nazwisko *</label>
+                          <input placeholder="Klimończyk" class="field-element" name="surname" pattern="[A-Za-z]{1,32}" required>
+              </div>
+              <div id="phone" class="form-item field email required">
+                          <label class="title">Telefon *</label>
+                          <input placeholder="111-222-333" class="field-element" name="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+              </div> 
+              <div id="email" class="form-item field email required">
+                 <label class="title">Email Address * </label>
+                 <input placeholder="karol.klimonczyk@zse.krakow.pl" class="field-element" type="email" required>
+              </div>
+              <div id="date_start"class="form-item field email required">
+                 <label class="title">Data rozpoczęcia rejsu *</label>
+                 <input class="field-element" type="date" required>
+              </div>   
+              <div id="date_end"class="form-item field email required">
+                 <label class="title">Data powrotu *</label>
+                 <input class="field-element" type="date" required>
+              </div>       
+              <div id="textarea" class="form-item field textarea required">
+                  <label class="title" for="textarea-field">Message</label>
+                  <textarea placeholder="Napisz tutaj, jeśli chcesz się dowiedzieć czegoś więcej!" class="field-element" id="textarea--field" name="message"></textarea>
+              </div>
+            <div id="contactResponse"></div>
+            <div class="form-button-wrapper form-button-wrapper--align-center">
+            <input class="button" type="submit" name="submit" value="Submit">
+             </div>
+
+          </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon fa-twitter"></a></li>
+            <li><a href="#" class="icon fa-facebook"></a></li>
+            <li><a href="#" class="icon fa-instagram"></a></li>
+            <li><a href="#" class="icon fa-linkedin"></a></li>
+            <li><a href="mailto:karol.klimonczyk@zse.krakow.pl" class="icon fa-envelope"></a></li>
+        </ul>
+        <p class="copyright">&copy; ZSE 2021 Karol Klimończyk 3f </p>
+    </footer>    
+    </body>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/scripts/navbar1.js"></script>
+    <script src="assets/scripts/navabar_onscroll.js"></script>
+</html>
