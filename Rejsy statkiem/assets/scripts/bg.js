@@ -1,1 +1,0 @@
-document.getElementsByClassName("alt").style.backgroundImage = "ulr('statekbg2.jpg')";
